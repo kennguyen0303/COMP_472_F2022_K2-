@@ -16,7 +16,7 @@ The project tasks covered in this notebook are:
     2.2 Training and testing sets split
 3. Embeddings as features
     
-The other 3 notebooks list down the coverage based on the tasks assigned to the owner.
+The other 4 notebooks list down the coverage based on the tasks assigned to the owner.
     
 ### `mini_project_kevins_notebooks.ipynb`
 This notebook covers the subtasks:  
@@ -33,7 +33,7 @@ This notebook covers the subtasks:
     - 3.3 Embeddings computing  
     - 3.4 Hit rates computing  
     
-### `mini_project_ken_notebook.ipynb`
+### `Kien_notebook.ipynb`
 This notebook covers the subtasks:
 - 2 Words as Features   
     - 2.2 Training and testing sets split  
@@ -41,6 +41,7 @@ This notebook covers the subtasks:
         - 2.3.4 Base decision tree
     - 2.4 Performance of the models  
     - 2.5 Stop words removal
+### `Kien_Part3.ipynb`
 - 3 Embeddings as features 
     - 3.5 Base MLP
     - 3.7 Display performance
