@@ -1,0 +1,271 @@
+Base MLP for emotions classification
+Default parameters
+----------------------------------------------------
+                precision    recall  f1-score   support
+
+    admiration       0.06      0.04      0.05      2095
+     amusement       0.03      0.02      0.02      1197
+         anger       0.03      0.02      0.02      1071
+     annoyance       0.05      0.03      0.04      1669
+      approval       0.06      0.04      0.05      2186
+        caring       0.01      0.01      0.01       742
+     confusion       0.02      0.02      0.02       975
+     curiosity       0.05      0.03      0.04      1233
+        desire       0.01      0.01      0.01       408
+disappointment       0.03      0.02      0.02       945
+   disapproval       0.04      0.04      0.04      1555
+       disgust       0.03      0.02      0.02       619
+ embarrassment       0.00      0.00      0.00       293
+    excitement       0.03      0.02      0.02       607
+          fear       0.01      0.01      0.01       345
+     gratitude       0.04      0.03      0.03      1400
+         grief       0.00      0.00      0.00        61
+           joy       0.02      0.01      0.02       852
+          love       0.03      0.02      0.03      1040
+   nervousness       0.02      0.01      0.02       150
+       neutral       0.32      0.50      0.39     11096
+      optimism       0.02      0.01      0.01       881
+         pride       0.00      0.00      0.00       138
+   realization       0.02      0.02      0.02       911
+        relief       0.00      0.00      0.00       143
+       remorse       0.00      0.00      0.00       296
+       sadness       0.02      0.02      0.02       743
+      surprise       0.04      0.03      0.03       713
+
+      accuracy                           0.18     34364
+     macro avg       0.03      0.03      0.03     34364
+  weighted avg       0.13      0.18      0.15     34364
+=====================================================
+
+Base MLP for sentiments classification
+Default parameters
+-----------------------------------------------------
+              precision    recall  f1-score   support
+
+   ambiguous       0.11      0.08      0.09      3796
+    negative       0.23      0.21      0.22      7796
+     neutral       0.32      0.38      0.35     10946
+    positive       0.34      0.34      0.34     11826
+
+    accuracy                           0.29     34364
+   macro avg       0.25      0.25      0.25     34364
+weighted avg       0.29      0.29      0.29     34364
+=====================================================
+
+Top MLP for emotions classification
+{'activation': 'logistic', 'hidden_layer_sizes': (30, 50), 'solver': 'sgd'}
+-----------------------------------------------------
+                precision    recall  f1-score   support
+
+    admiration       0.00      0.00      0.00      2095
+     amusement       0.00      0.00      0.00      1197
+         anger       0.00      0.00      0.00      1071
+     annoyance       0.00      0.00      0.00      1669
+      approval       0.00      0.00      0.00      2186
+        caring       0.00      0.00      0.00       742
+     confusion       0.00      0.00      0.00       975
+     curiosity       0.00      0.00      0.00      1233
+        desire       0.00      0.00      0.00       408
+disappointment       0.00      0.00      0.00       945
+   disapproval       0.00      0.00      0.00      1555
+       disgust       0.00      0.00      0.00       619
+ embarrassment       0.00      0.00      0.00       293
+    excitement       0.00      0.00      0.00       607
+          fear       0.00      0.00      0.00       345
+     gratitude       0.00      0.00      0.00      1400
+         grief       0.00      0.00      0.00        61
+           joy       0.00      0.00      0.00       852
+          love       0.00      0.00      0.00      1040
+   nervousness       0.00      0.00      0.00       150
+       neutral       0.32      1.00      0.49     11096
+      optimism       0.00      0.00      0.00       881
+         pride       0.00      0.00      0.00       138
+   realization       0.00      0.00      0.00       911
+        relief       0.00      0.00      0.00       143
+       remorse       0.00      0.00      0.00       296
+       sadness       0.00      0.00      0.00       743
+      surprise       0.00      0.00      0.00       713
+
+      accuracy                           0.32     34364
+     macro avg       0.01      0.04      0.02     34364
+  weighted avg       0.10      0.32      0.16     34364
+=====================================================
+
+Top MLP for sentiments classification
+{'activation': 'logistic', 'hidden_layer_sizes': (30, 50), 'solver': 'sgd'}
+-----------------------------------------------------
+              precision    recall  f1-score   support
+
+   ambiguous       0.00      0.00      0.00      3796
+    negative       0.00      0.00      0.00      7796
+     neutral       0.00      0.00      0.00     10946
+    positive       0.34      1.00      0.51     11826
+
+    accuracy                           0.34     34364
+   macro avg       0.09      0.25      0.13     34364
+weighted avg       0.12      0.34      0.18     34364
+=====================================================
+
+Base MLP for emotions classification with stopwords
+Default parameters
+----------------------------------------------------
+                precision    recall  f1-score   support
+
+    admiration       0.06      0.04      0.05      2095
+     amusement       0.04      0.03      0.03      1197
+         anger       0.03      0.03      0.03      1071
+     annoyance       0.05      0.04      0.04      1669
+      approval       0.07      0.07      0.07      2186
+        caring       0.02      0.01      0.02       742
+     confusion       0.03      0.03      0.03       975
+     curiosity       0.04      0.02      0.03      1233
+        desire       0.01      0.01      0.01       408
+disappointment       0.03      0.02      0.02       945
+   disapproval       0.04      0.03      0.03      1555
+       disgust       0.01      0.01      0.01       619
+ embarrassment       0.00      0.00      0.00       293
+    excitement       0.01      0.01      0.01       607
+          fear       0.00      0.00      0.00       345
+     gratitude       0.04      0.03      0.03      1400
+         grief       0.00      0.00      0.00        61
+           joy       0.02      0.01      0.02       852
+          love       0.03      0.02      0.02      1040
+   nervousness       0.00      0.00      0.00       150
+       neutral       0.33      0.52      0.40     11096
+      optimism       0.02      0.01      0.02       881
+         pride       0.02      0.01      0.02       138
+   realization       0.02      0.02      0.02       911
+        relief       0.00      0.00      0.00       143
+       remorse       0.01      0.01      0.01       296
+       sadness       0.02      0.01      0.02       743
+      surprise       0.02      0.02      0.02       713
+
+      accuracy                           0.18     34364
+     macro avg       0.03      0.04      0.03     34364
+  weighted avg       0.13      0.18      0.15     34364
+=====================================================
+
+Base MLP for sentiments classification with stopwords
+Default parameters
+-----------------------------------------------------
+              precision    recall  f1-score   support
+
+   ambiguous       0.12      0.09      0.10      3796
+    negative       0.23      0.19      0.21      7796
+     neutral       0.32      0.32      0.32     10946
+    positive       0.35      0.42      0.38     11826
+
+    accuracy                           0.30     34364
+   macro avg       0.25      0.25      0.25     34364
+weighted avg       0.29      0.30      0.29     34364
+=====================================================
+
+Top MLP for emotions classification with stopwords
+{'activation': 'logistic', 'hidden_layer_sizes': (30, 50), 'solver': 'sgd'}
+-----------------------------------------------------
+                precision    recall  f1-score   support
+
+    admiration       0.00      0.00      0.00      2095
+     amusement       0.00      0.00      0.00      1197
+         anger       0.00      0.00      0.00      1071
+     annoyance       0.00      0.00      0.00      1669
+      approval       0.00      0.00      0.00      2186
+        caring       0.00      0.00      0.00       742
+     confusion       0.00      0.00      0.00       975
+     curiosity       0.00      0.00      0.00      1233
+        desire       0.00      0.00      0.00       408
+disappointment       0.00      0.00      0.00       945
+   disapproval       0.00      0.00      0.00      1555
+       disgust       0.00      0.00      0.00       619
+ embarrassment       0.00      0.00      0.00       293
+    excitement       0.00      0.00      0.00       607
+          fear       0.00      0.00      0.00       345
+     gratitude       0.00      0.00      0.00      1400
+         grief       0.00      0.00      0.00        61
+           joy       0.00      0.00      0.00       852
+          love       0.00      0.00      0.00      1040
+   nervousness       0.00      0.00      0.00       150
+       neutral       0.32      1.00      0.49     11096
+      optimism       0.00      0.00      0.00       881
+         pride       0.00      0.00      0.00       138
+   realization       0.00      0.00      0.00       911
+        relief       0.00      0.00      0.00       143
+       remorse       0.00      0.00      0.00       296
+       sadness       0.00      0.00      0.00       743
+      surprise       0.00      0.00      0.00       713
+
+      accuracy                           0.32     34364
+     macro avg       0.01      0.04      0.02     34364
+  weighted avg       0.10      0.32      0.16     34364
+=====================================================
+
+Top MLP for sentiments classification with stopwords
+{'activation': 'relu', 'hidden_layer_sizes': (10, 10, 10), 'solver': 'sgd'}
+-----------------------------------------------------
+              precision    recall  f1-score   support
+
+   ambiguous       0.00      0.00      0.00      3796
+    negative       0.00      0.00      0.00      7796
+     neutral       0.00      0.00      0.00     10946
+    positive       0.34      1.00      0.51     11826
+
+    accuracy                           0.34     34364
+   macro avg       0.09      0.25      0.13     34364
+weighted avg       0.12      0.34      0.18     34364
+=====================================================
+=====================================================
+
+Top MLP for emotions classification with word embeddings
+{'hidden_layer_sizes': (10, 10, 10), 'activation': 'relu', 'solver': 'adam'}
+-----------------------------------------------------
+                precision    recall  f1-score   support
+
+    admiration       0.00      0.00      0.00      2095
+     amusement       0.00      0.00      0.00      1197
+         anger       0.00      0.00      0.00      1071
+     annoyance       0.00      0.00      0.00      1669
+      approval       0.00      0.00      0.00      2186
+        caring       0.00      0.00      0.00       742
+     confusion       0.00      0.00      0.00       975
+     curiosity       0.00      0.00      0.00      1233
+        desire       0.00      0.00      0.00       408
+disappointment       0.00      0.00      0.00       945
+   disapproval       0.06      0.00      0.00      1555
+       disgust       0.00      0.00      0.00       619
+ embarrassment       0.00      0.00      0.00       293
+    excitement       0.00      0.00      0.00       607
+          fear       0.00      0.00      0.00       345
+     gratitude       0.00      0.00      0.00      1400
+         grief       0.00      0.00      0.00        61
+           joy       0.00      0.00      0.00       852
+          love       0.00      0.00      0.00      1040
+   nervousness       0.00      0.00      0.00       150
+       neutral       0.32      1.00      0.49     11096
+      optimism       0.00      0.00      0.00       881
+         pride       0.00      0.00      0.00       138
+   realization       0.00      0.00      0.00       911
+        relief       0.00      0.00      0.00       143
+       remorse       0.00      0.00      0.00       296
+       sadness       0.00      0.00      0.00       743
+      surprise       0.00      0.00      0.00       713
+
+      accuracy                           0.32     34364
+     macro avg       0.01      0.04      0.02     34364
+  weighted avg       0.11      0.32      0.16     34364
+=====================================================
+
+Top MLP for sentiments classification with word embeddings
+{'hidden_layer_sizes': (10, 10, 10), 'activation': 'relu', 'solver': 'adam'}
+-----------------------------------------------------
+              precision    recall  f1-score   support
+
+   ambiguous       0.00      0.00      0.00      3796
+    negative       0.22      0.01      0.03      7796
+     neutral       0.32      0.29      0.31     10946
+    positive       0.34      0.69      0.46     11826
+
+    accuracy                           0.33     34364
+   macro avg       0.22      0.25      0.20     34364
+weighted avg       0.27      0.33      0.26     34364
+=====================================================
+
